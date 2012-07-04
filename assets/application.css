@@ -1,0 +1,32 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+*/
+
+/* line 1, ../../app/assets/stylesheets/home.css.scss */
+.tweets {
+  width: 500px;
+  margin: 2em auto;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+/* line 8, ../../app/assets/stylesheets/home.css.scss */
+.tweet_button {
+  position: fixed;
+  top: 1em;
+  right: 0;
+}
+/* line 1, ../../app/assets/stylesheets/layout.css.scss */
+body {
+  background: url("http://upload.wikimedia.org/wikipedia/commons/6/68/Rob_Ford_Chain_of_Office_2011.jpg") #0f0f0f center center no-repeat fixed;
+}
