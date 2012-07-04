@@ -12,21 +12,43 @@
 
 */
 
-/* line 1, ../../app/assets/stylesheets/home.css.scss */
-.tweets {
-  width: 500px;
-  margin: 2em auto;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
-}
-
-/* line 8, ../../app/assets/stylesheets/home.css.scss */
-.tweet_button {
-  position: fixed;
-  top: 1em;
-  right: 0;
-}
 /* line 1, ../../app/assets/stylesheets/layout.css.scss */
 body {
-  background: url("http://upload.wikimedia.org/wikipedia/commons/6/68/Rob_Ford_Chain_of_Office_2011.jpg") #0f0f0f center center no-repeat fixed;
+  background: url("http://iamsolarpowered.github.com/rob_ford/assets/ford_cutout.png") #0f0f0f 2em 1em no-repeat fixed;
+  font-size: 16px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* line 8, ../../app/assets/stylesheets/layout.css.scss */
+.container {
+  width: 500px;
+  margin: 2em auto;
+}
+/* line 11, ../../app/assets/stylesheets/layout.css.scss */
+.container .main {
+  color: white;
+}
+
+/* line 16, ../../app/assets/stylesheets/layout.css.scss */
+.right_sidebar {
+  position: fixed;
+  top: 2em;
+  right: 1em;
+  width: 250px;
+  color: #444;
+  font-size: 12px;
+}
+/* line 23, ../../app/assets/stylesheets/layout.css.scss */
+.right_sidebar a {
+  color: #666;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 27, ../../app/assets/stylesheets/layout.css.scss */
+.right_sidebar a:hover {
+  text-decoration: underline;
+}
+/* line 31, ../../app/assets/stylesheets/layout.css.scss */
+.right_sidebar p {
+  margin: 4em 0;
 }

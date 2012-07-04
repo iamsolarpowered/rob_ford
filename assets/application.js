@@ -9783,11 +9783,21 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 (function() {
 
   jQuery(function() {
+    return $('.tweets a').live('click', function() {
+      return $(this).attr('target', '_blank');
+    });
+  });
+
+}).call(this);
+(function() {
+
+  jQuery(function() {
     var Tweets;
     Tweets = {
       search_attributes: {
-        q: '@tomayorford OR "Rob Ford" OR "Mayor Ford" -RT',
-        rpp: 42
+        q: '@tomayorford OR "Rob Ford" OR "Mayor Ford" OR robford -RT',
+        rpp: 42,
+        result_type: 'recent'
       },
       fetch: function() {
         return $.ajax({
@@ -9808,11 +9818,12 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
           return $('.tweets').append(el);
         });
         return $.getScript('//platform.twitter.com/widgets.js', function() {
-          return $('.tweets').show();
+          return $('.tweets').fadeTo('slow', 0.9);
         });
       }
     };
-    return Tweets.fetch();
+    Tweets.fetch();
+    return $('.about .keywords').text(Tweets.search_attributes.q);
   });
 
 }).call(this);
