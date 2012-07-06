@@ -1,0 +1,34 @@
+body {
+  background: url("/images/ford_cutout.png") #0F0F0F 2em 1em no-repeat fixed;
+  font-size: 16px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+.container {
+  width: 500px;
+  margin: 2em auto;
+  .main {
+    color: white;
+  }
+}
+
+.right_sidebar {
+  position: fixed;
+  top: 2em;
+  right: 1em;
+  width: 250px;
+  color: #444;
+  font-size: 12px;
+  a {
+    color: #666;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  p {
+    margin: 4em 0;
+  }
+}
