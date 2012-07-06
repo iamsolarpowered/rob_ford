@@ -1,0 +1,20 @@
+<div class="right_sidebar">
+  <%= render 'home/tweet_button' %>
+  <p class="about">
+    <strong>ABOUT THIS SITE</strong><br />
+    Search Twitter for '
+      <code class="keywords"></code>
+    '. This is what you'll get. Except for the funny picture, of course.
+    <br /><br />
+    Ford is the man featured in
+    <%= link_to 'this article', 'http://www.openfile.ca/toronto/story/history-outbursts-rob-fords-track-record-public' %>, 
+    the mayor of Toronto.
+  </p>
+  <p>
+    Photo by 
+    <%= link_to 'West Annex News', 'http://www.flickr.com/photos/westannexnews/6201131589/in/photostream/', :target => 'blank' %>,
+    who thoughtfully chose a
+    <%= link_to 'Creative Commons', 'http://creativecommons.org/', :target => 'blank' %>
+    license.
+  </p>
+</div>
