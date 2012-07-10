@@ -16,6 +16,6 @@ in the root directory to re-compile everything.
 
 If you want to edit the compiled HTML/JS/CSS, feel free. I'll transpose the changes.
 
-## Licence
+## License
 
 Public domain. Do whatever you like with it.
