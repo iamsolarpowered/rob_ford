@@ -6,7 +6,7 @@ There are a lot of tweets about Rob Ford. Not a lot of them are complimentary. B
 
 ## How to contribute
 
-Just fork this repository and send me a pull request. I use a [Serve](https://github.com/jlong/serve) application (found in [`src`](tree/master/src)) plus a custom [`Rakefile`](blob/master/Rakefile) to generate the site.
+Just fork this repository and send me a pull request. I use a [Serve](https://github.com/jlong/serve) application (found in [`src`](https://github.com/iamsolarpowered/rob_ford/tree/master/src)) plus a custom [`Rakefile`](https://github.com/iamsolarpowered/rob_ford/blob/master/Rakefile) to generate the site.
 
 If you edit the Serve app, simply run
 
