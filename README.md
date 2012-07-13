@@ -2,7 +2,7 @@
 
 Mayor of Toronto. Subway advocate. Shitty driver. Dickhead.
 
-There are a lot of tweets about Rob Ford. Not a lot of them are complimentary. But now they're all available in [one place](http://iamsolarpowered.github.com/rob_ford).
+There are a lot of tweets about Rob Ford. Not a lot of them are complimentary. But now they're all available in [one place](http://robfordmayor.ca).
 
 ## How to contribute
 
