@@ -1,0 +1,24 @@
+.right_sidebar
+  
+  = render 'tweet_button'
+
+  %p.about
+    %strong ABOUT THIS SITE
+    %br
+    Search Twitter for '
+    %code.keywords
+    '. This is what you'll get. Except for the funny picture, of course.
+    %br
+    %br
+    If Ford comes off looking bad, it would seem to be a result of his aptitude. (That's really how he looks.)
+    %br
+    %br
+    Ford is the man featured in
+    = link_to 'this article', 'http://www.openfile.ca/toronto/story/history-outbursts-rob-fords-track-record-public'
+    , the mayor of Toronto.
+  %p
+    Photo by 
+    = link_to 'West Annex News', 'http://www.flickr.com/photos/westannexnews/6201131589/in/photostream/', :target => 'blank'
+    , who thoughtfully chose a
+    = link_to 'Creative Commons', 'http://creativecommons.org/', :target => 'blank'
+    license.
