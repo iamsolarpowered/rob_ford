@@ -7,7 +7,7 @@ jQuery ->
   Tweets = 
 
     search_attributes:
-        q: '@tomayorford OR Toronto Ford OR "Mayor Ford" OR #robford -RT'
+        q: '@tomayorford OR "Rob Ford" OR "Mayor Ford" OR #robford -RT'
         rpp: 42
         result_type: 'recent'
 
