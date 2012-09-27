@@ -1,4 +1,5 @@
 .tweets
-
-.templates{:style => 'display: none;'}
-  = render 'tweet'
+  .loading{'ng-hide' => 'tweets.length > 0'} Loading...
+  %blockquote.twitter-tweet{'ng-repeat' => 'tweet in tweets'}
+    %p {{tweet.text}}
+    %a{:href => 'https://twitter.com/twitterapi/status/{{tweet.id_str}}', 'data-datetime' => '{{tweet.created_at.toISOString()}}'} {{tweet.created_at}}

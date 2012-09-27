@@ -1,11 +1,13 @@
 !!! 5
-%html
+%html{'ng-app' => 'RobFord'}
   %head
     %title Rob Ford, this is what Toronto thinks of you...
     = stylesheet_link_tag    "application", :media => "all"
-    = javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'
+    = javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'
+    = javascript_include_tag '//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js'
     = javascript_include_tag 'application', 'google_analytics'
-  %body
+    
+  %body{'ng-controller' => 'RobFordController'}
 
     .container
       .main
